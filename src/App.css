@@ -1,0 +1,19 @@
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  min-height: 100vh;
+}
+
+@media (max-width: 865px) {
+  .main-content {
+    gap: 100px;
+  }
+}
+
+@media (max-width: 710px) {
+  .main-content {
+    gap: 10px;
+  }
+}
